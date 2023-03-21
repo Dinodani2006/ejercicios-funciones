@@ -1,17 +1,9 @@
-function edad(a) {
-    if(a<13) {
-        return 'niño';
+function paridad(a) {
+    if(a%2==0) {
+        return 'par';
     } else {
-        if(13<=a && a<=18){
-            return 'adolescente';
-        } else {
-            if(18<a && a<=65) {
-                return 'adulto';
-            } else {
-                return 'mayor';
-            }
-        }
+        return 'impar';
     }
 }
-let rese = edad(46);
-console.log('Una persona de 46 años es '+rese);
+let respa = paridad(13);
+console.log('El número 13 es '+respa);
