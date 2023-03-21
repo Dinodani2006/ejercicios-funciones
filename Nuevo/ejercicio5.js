@@ -1,4 +1,4 @@
-unction division(a,b) {
+function division(a,b) {
     if(b==0) {
         return 'infinito';
     } else {
